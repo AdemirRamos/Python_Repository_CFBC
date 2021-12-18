@@ -1,3 +1,6 @@
+print('Sintaxe Básica (Parte 2) e Comentários')
+print()
+
 #Em Python, as variáveis são dinâmicas. Dependendo do valor que recebem, o seu tipo mudará.
 
 num = 1 #Número inteiro (int);
