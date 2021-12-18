@@ -1,3 +1,6 @@
+print('Variáveis Em Python')
+print()
+
 num = num2 = res = 0 #Essas são todas "variáveis globais" (elas podem ser acessadas a partir de qualquer ponto do programa).
 
 #Exemplo de variável de escopo global ("canal" declarada fora da "def" mas sendo usado dentro dela):
