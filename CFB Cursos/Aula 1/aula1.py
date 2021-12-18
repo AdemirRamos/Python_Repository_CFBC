@@ -1,2 +1,2 @@
 print('Olá, mundo!')
-print('CFB Cursos')
+print('CFB Cursos.')
