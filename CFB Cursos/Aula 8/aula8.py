@@ -1,0 +1,2 @@
+print('Tipo Boolean')
+print()
