@@ -21,3 +21,7 @@ if aula: #Significa: se a aula tem como valor "True".
     print('Possui texto.')
 else:
     print('Não possui texto.')
+
+número = 1
+
+print(f'Valor da variável "número": {bool(número)}.')
