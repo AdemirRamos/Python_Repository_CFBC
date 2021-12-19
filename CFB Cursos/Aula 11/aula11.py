@@ -1,4 +1,4 @@
-print('Condicionais "If" "Elif" e "Else"')
+print('Condicionais "If", "Elif" e "Else"')
 print()
 
 #A vantagem de se usar os condicinais é que, ao se ter um testo lógico com valor "True", os demais não serão realizados.
