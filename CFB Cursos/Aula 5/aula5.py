@@ -35,3 +35,4 @@ print(f'Tipo da 1ª variável: {type(num_i)}; tipo da 2ª variável: {type(num_f
 #"Casting" consiste em converter o tipo / classe de objetos.
 
 print('Valor: ' + str(x_2) + ' - Tipo: ' + str(type(x_2)))
+print('Valor: ' + str(números[1]))
