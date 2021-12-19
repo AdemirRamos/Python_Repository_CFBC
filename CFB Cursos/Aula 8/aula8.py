@@ -18,10 +18,12 @@ print(f'\nValor da variável "aula": {bool(aula)}.')
 print(f'\nValor da variável "aula_2": {bool(aula_2)}.')
 
 if aula: #Significa: se a aula tem como valor "True".
-    print('Possui texto.')
+    print('\nPossui texto.')
 else:
-    print('Não possui texto.')
+    print('\nNão possui texto.')
 
 número = 1
+número_2 = 0
 
-print(f'Valor da variável "número": {bool(número)}.')
+print(f'\nValor da variável "número": {bool(número)}.')
+print(f'\nValor da variável "número_2": {bool(número_2)}.') #Resultado: "False".
