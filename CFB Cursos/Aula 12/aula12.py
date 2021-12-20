@@ -40,4 +40,4 @@ for x in carros_2:
         break
     print(x) #"Fusion" não será impresso (o que mostra que o "break" está funcionando perfeitamente).
 
-#Lembrando que: o "for" sempre para no penúltimo elemento.
+#Lembrando que: o "for" sempre para a impressão no penúltimo elemento.
