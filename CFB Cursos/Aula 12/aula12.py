@@ -18,3 +18,8 @@ for x in '\nCFB Cursos':
     print(x)
 
 #Resultado: através do conceito de Fatiamento, cada uma das letras da "string" será impressa na tela.
+
+for x in ['HRV', 'Golf', 'Argo', 'Focus']:
+    print(x)
+
+#Também é possível percorrer a Lista a adicionando diretamente no "for".
