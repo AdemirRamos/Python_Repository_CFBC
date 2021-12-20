@@ -34,3 +34,10 @@ carros_2 = ['HRV', 'Golf', 'Argo', 'Focus', 'Fit', 'Fusion', 'Polo']
 for x in carros_2:
     if x == 'Fusion':
         break
+
+for x in carros_2:
+    if x == 'Fusion':
+        break
+    print(x) #"Fusion" não será impresso (o que mostra que o "break" está funcionando perfeitamente).
+
+#Lembrando que: o "for" sempre para no penúltimo elemento.
