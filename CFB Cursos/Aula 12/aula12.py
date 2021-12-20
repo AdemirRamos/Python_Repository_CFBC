@@ -14,12 +14,23 @@ for x in carros:
 #A variável "x" se torna a chave dos elementos da Lista carros, ou seja, "x" representa cada elemento da Lista.
 #Nesse caso, o "loop" só termina quando todos os elementos forem impressos.
 
-for x in '\nCFB Cursos':
+print()
+for x in 'CFB Cursos':
     print(x)
 
 #Resultado: através do conceito de Fatiamento, cada uma das letras da "string" será impressa na tela.
 
+print()
 for x in ['HRV', 'Golf', 'Argo', 'Focus']:
     print(x)
 
 #Também é possível percorrer a Lista a adicionando diretamente no "for".
+
+#É possível usar "break" também com o "for".
+
+print()
+carros_2 = ['HRV', 'Golf', 'Argo', 'Focus', 'Fit', 'Fusion', 'Polo']
+
+for x in carros_2:
+    if x == 'Fusion':
+        break
