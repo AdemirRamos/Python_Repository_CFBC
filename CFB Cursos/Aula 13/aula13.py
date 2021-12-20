@@ -1,0 +1,2 @@
+print('Função Input')
+print()
