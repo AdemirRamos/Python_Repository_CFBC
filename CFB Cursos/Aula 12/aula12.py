@@ -14,3 +14,7 @@ for x in carros:
 #A variável "x" se torna a chave dos elementos da Lista carros, ou seja, "x" representa cada elemento da Lista.
 #Nesse caso, o "loop" só termina quando todos os elementos forem impressos.
 
+for x in '\nCFB Cursos':
+    print(x)
+
+#Resultado: através do conceito de Fatiamento, cada uma das letras da "string" será impressa na tela.
