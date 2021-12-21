@@ -26,6 +26,15 @@ a = 0
 while a < 10:
     print(a)
     a += 1
-    if (a > 5):
+    if (a >= 5):
         break
+print('Fim do programa.')
+
+print()
+carros = ['HRV', 'Golf', 'Argo', 'Onix', 'Focus']
+b = 0
+tamanho = len(carros)
+while b < tamanho:
+    print(carros[b])
+    b += 1
 print('Fim do programa.')
