@@ -38,3 +38,15 @@ while b < tamanho:
     print(carros[b])
     b += 1
 print('Fim do programa.')
+
+print()
+carros_2 = []
+carro = str(input('Digite o nome do novo carro: ')).lower().strip()
+while carros_2 != 'parar':
+    carros_2.append(carro)
+    carro = str(input('Digite o nome do novo carro: '))
+    print(carros_2)
+
+for x in carros_2:
+    print(f'Nome do carro: {x}.\n')
+print('Fim do programa.')
