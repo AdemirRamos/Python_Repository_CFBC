@@ -45,8 +45,8 @@ carro = str(input('Digite o nome do novo carro: ')).lower().strip()
 while carro != 'parar':
     carros_2.append(carro)
     carro = str(input('Digite o nome do novo carro: ')).lower().strip()
-    print(carros_2)
 
+print()   
 for x in carros_2:
     print(f'Nome do carro: {x}.\n')
 print('Fim do programa.')
