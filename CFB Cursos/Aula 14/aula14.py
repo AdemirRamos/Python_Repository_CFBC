@@ -12,3 +12,9 @@ os.system('cls')
 #4ª: incremento, decremento ou controle da variável de controle.
 
 #Caso a variável de controle sempre retorne "True", será iniciado um "loop infinito" (o programa não parará sozinho).
+
+i = 0
+while i < 9:
+    print(i)
+    i += i #Esse comando também poderia ser escrito assim: "i = i + 1".
+    
