@@ -18,3 +18,12 @@ while i < 10: #Os contadores, em Python, sempre param no penúltimo número.
     print(i)
     i += 1 #Esse comando também poderia ser escrito assim: "i = i + 1".
 print('Fim do programa.')
+
+#"Break":
+
+print()
+a = 0
+while a < 10:
+    print(a)
+    a += 1
+print('Fim do programa.')
