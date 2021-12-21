@@ -16,5 +16,5 @@ os.system('cls')
 i = 0
 while i < 10: #Os contadores, em Python, sempre param no penúltimo número.
     print(i)
-    i += i #Esse comando também poderia ser escrito assim: "i = i + 1".
+    i += 1 #Esse comando também poderia ser escrito assim: "i = i + 1".
 print('Fim do programa.')
