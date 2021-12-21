@@ -50,3 +50,16 @@ print()
 for x in carros_2:
     print(f'Nome do carro: {x}.\n')
 print('Fim do programa.')
+
+print()
+carros_3 = []
+car = ''
+while car != 'parar':
+    car = str(input('Digite o nome do novo carro: '))
+    carros_3.append(car)
+
+print()
+for c in carros_3:
+    print(f'Nome do carro: {c}')
+print()
+print('Fim do programa.')
