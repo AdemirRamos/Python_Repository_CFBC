@@ -71,9 +71,11 @@ print(f'Tamanho do dicionário: {len(carros)}.')
 
 #Dicionários dentro de dicionários:
 
-cars = {'Car_1': {'Fabricante': 'Honda', 'Modelo': 'HRV'},
-        'Car_2': {'Fabricante': 'Volkswagen', 'Modelo': 'Golf'},
-        'Car_3': {'Fabricante': 'Ford', 'Modelo': 'Focus'}}
+cars = {
+    'Car_1': {'Fabricante': 'Honda', 'Modelo': 'HRV'},
+    'Car_2': {'Fabricante': 'Volkswagen', 'Modelo': 'Golf'},
+    'Car_3': {'Fabricante': 'Ford', 'Modelo': 'Focus'}
+    }
 
 print()
 print(f'Conteúdo do dicionário "cars": {cars}')
