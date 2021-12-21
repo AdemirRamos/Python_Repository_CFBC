@@ -14,7 +14,7 @@ os.system('cls')
 #Caso a variável de controle sempre retorne "True", será iniciado um "loop infinito" (o programa não parará sozinho).
 
 i = 0
-while i < 9:
+while i < 10: #Os contadores, em Python, sempre param no penúltimo número.
     print(i)
     i += i #Esse comando também poderia ser escrito assim: "i = i + 1".
-    
+print('Fim do programa.')
