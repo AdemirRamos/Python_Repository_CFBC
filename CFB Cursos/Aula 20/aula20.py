@@ -43,3 +43,12 @@ def lista():
 
 lista()
 
+values = [1, 5, 3, 2]
+def somar_3(num):
+    r = 0
+    for n in num:
+        r += n
+    print()
+    print(f'Os valores da lista "values" são: {r}.')
+
+somar_3(values)
