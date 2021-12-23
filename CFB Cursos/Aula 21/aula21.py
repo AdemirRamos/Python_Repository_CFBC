@@ -4,11 +4,11 @@ print()
 import os; os.system('cls')
 
 values = [1, 5, 3, 2]
-def somar_3(num):
+def somar(num):
     r = 0
     for n in num:
         r += n
-    print()
-    print(f'A soma dos valores da lista "values" é: {r}.')
+    return r #Aqui pode ser retornado o que você quiser. Uma "string", um variável, um número, et cetera.
 
-somar_3(values)
+print(f'O resultado devolvido pela função foi: "{somar(values)}".')
+#Como foi retornada à chamada da função o resultado da função, agora, ao "printar" a função, temos esse resultado.
