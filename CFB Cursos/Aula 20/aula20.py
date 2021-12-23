@@ -24,3 +24,8 @@ def somar_2(* num):
     print(f'O resultado da soma dos números apresentados é igual a: {r}.')
 
 somar_2(5, 7, 9, 3)
+
+def carros(c):
+    print(f'O modelo desse carro é: {c}.')
+
+carros('Honda City')
