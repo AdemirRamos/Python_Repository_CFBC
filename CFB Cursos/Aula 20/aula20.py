@@ -31,3 +31,15 @@ def carros(c = 'Golf'): #Função com argumento parão definido.
 
 carros('Honda City')
 carros()
+
+import random
+
+def lista():
+    valores = list()
+    for v in range(0, 6):
+        valores.append(random.randint(0, 10))
+    print()
+    print(f'Lista de valores aleatórios: {valores}.')
+
+lista()
+
