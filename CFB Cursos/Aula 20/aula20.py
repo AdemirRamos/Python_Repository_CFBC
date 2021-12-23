@@ -49,6 +49,6 @@ def somar_3(num):
     for n in num:
         r += n
     print()
-    print(f'Os valores da lista "values" são: {r}.')
+    print(f'A soma dos valores da lista "values" é: {r}.')
 
 somar_3(values)
