@@ -9,9 +9,9 @@ def somar(n1, n2): #A essas variáveis, é dado o nome "parâmetro de entrada".
 
 somar(7, 9)
 
-def textos(*t): #A esse argumento (precedido por um asterisco), se dá o nome de "argumento arbitrário".
+def textos(*txt): #A esse argumento (precedido por um asterisco), se dá o nome de "argumento arbitrário".
     print()
-    for p in t:
-        print(f'O texto digitado foi: "{p}".')
+    for t in txt:
+        print(f'O texto digitado foi: "{t}".')
 
 textos('Olá, mundo!', 'Meu nome é Ademir', 'Tudo bem com vocês?')
