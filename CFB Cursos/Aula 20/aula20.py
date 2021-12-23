@@ -25,7 +25,9 @@ def somar_2(* num):
 
 somar_2(5, 7, 9, 3)
 
-def carros(c):
+def carros(c = 'Golf'):
+    print()
     print(f'O modelo desse carro é: {c}.')
 
 carros('Honda City')
+carros()
