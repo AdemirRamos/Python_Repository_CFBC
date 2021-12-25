@@ -10,3 +10,7 @@ import os; os.system('cls')
 #O Objeto (classe instanciada), por sua vez, pode ser entendido como a casa em si.
 
 #Como criar Classes em Python:
+
+class Carro:
+
+#Se usa a palavra "class" para criar uma Classe; em seguida, se dá o nome da Classe.
