@@ -18,3 +18,6 @@ class Carro:
 
 #Se usa a palavra "class" para criar uma Classe; em seguida, se dá o nome da Classe; então se adiciona comandos à classe.
 
+#Instanciando o novo Objeto:
+
+car = Carro()
