@@ -16,7 +16,7 @@ class Carro:
     ligado = False
     cor = ''
 
-#Se usa a palavra "class" para criar uma Classe; em seguida, se dá o nome da Classe; então se adiciona comandos à classe.
+#Se usa a palavra "class" para criar uma Classe; em seguida, se dá o nome da Classe; então se adiciona propriedades à classe.
 
 #Instanciando o novo Objeto:
 
@@ -27,3 +27,5 @@ car_3 = Carro()
 car_1.velocidade_máxima = '200km/h'
 car_1.cor = 'Preto'
 car_1.ligado = False
+
+print(f'Velocidade máxima do veículo: {car_1.velocidade_máxima}.')
