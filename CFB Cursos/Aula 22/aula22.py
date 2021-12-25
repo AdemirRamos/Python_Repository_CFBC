@@ -7,7 +7,7 @@ import os; os.system('cls')
 
 #Estrutura da "Função Lambda ('Função Anônima')":
 
-#"lambda arg: expressão".
+#"lambda argumento (s): expressão".
 
 #Exemplos práticos:
 
@@ -38,6 +38,8 @@ print(f'\nO resultado dessa expressão é: {res}.')
 res = r(2, lambda x: x + x)
 print(f'\nO resultado dessa expressão é: {res}.')
 #Agora foram somados os valores 2 e o valor de "x" resultante de primeira função lambda.
+#Resultado final: 6.
 
 res = r(2, lambda x: x + 3)
 print(f'\nO resultado dessa expressão é: {res}.')
+#Agora foram somados o valores 4 (x) e 3. Resultado final: 7.
