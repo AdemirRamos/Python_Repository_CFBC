@@ -23,3 +23,7 @@ class Carro:
 car_1 = Carro()
 car_2 = Carro()
 car_3 = Carro()
+
+car_1.velocidade_máxima = '200km/h'
+car_1.cor = 'Preto'
+car_1.ligado = False
