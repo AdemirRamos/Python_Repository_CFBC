@@ -30,3 +30,4 @@ car_1.ligado = False
 
 print(f'Velocidade máxima do veículo 1: {car_1.velocidade_máxima}.')
 print(f'\nCor de veículo 1: {car_1.cor}.')
+print(f'\nO carro 1 está ligado?: {car_1.ligado}.')
