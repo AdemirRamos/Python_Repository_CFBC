@@ -20,4 +20,6 @@ class Carro:
 
 #Instanciando o novo Objeto:
 
-car = Carro()
+car_1 = Carro()
+car_2 = Carro()
+car_3 = Carro()
