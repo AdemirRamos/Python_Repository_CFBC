@@ -12,5 +12,6 @@ import os; os.system('cls')
 #Como criar Classes em Python:
 
 class Carro:
+    velocidade_máxima = 0
 
 #Se usa a palavra "class" para criar uma Classe; em seguida, se dá o nome da Classe.
