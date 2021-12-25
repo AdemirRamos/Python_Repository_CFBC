@@ -16,4 +16,5 @@ class Carro:
     ligado = False
     cor = ''
 
-#Se usa a palavra "class" para criar uma Classe; em seguida, se dá o nome da Classe.
+#Se usa a palavra "class" para criar uma Classe; em seguida, se dá o nome da Classe; então se adiciona comandos à classe.
+
