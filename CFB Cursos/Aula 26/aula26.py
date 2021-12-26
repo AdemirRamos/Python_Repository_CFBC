@@ -17,3 +17,6 @@ except:
 else: #Se cai aqui quando não houver um erro / exceção.
     print('\nNenhum erro / exceção foi encontrado (a).')
 
+finally: #Independente da ocorrência de erros ou não, esse bloco será executado.
+    print('\nFim do tratamento de erros.')
+
