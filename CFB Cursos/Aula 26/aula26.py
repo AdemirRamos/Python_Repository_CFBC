@@ -34,7 +34,7 @@ else:
 
 num_2 = 'Ademir'
 
-if not type(num_2) is int: #Se "num" não for do tipo "int".
+if type(num_2) is not int: #Se "num" não for do tipo "int".
     print('\nErro. Digite somente números.')
 
 else:
