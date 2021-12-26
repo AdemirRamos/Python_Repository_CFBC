@@ -25,3 +25,16 @@ num = -10
 if num < 0:
     raise Exception ('Valor inválido! O valor não pode ser menor do que zero (0).')
     #Esse comando gera uma exceção / erro.
+
+if type(num) is int: #Se "num" for do tipo "int".
+    print('')
+
+else:
+    print('')
+
+if not type(num) is int: #Se "num" não for do tipo "int".
+    print('')
+
+else:
+    print('')
+
