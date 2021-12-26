@@ -8,7 +8,7 @@ print()
 
 #Criando um construtor [construtores são um método especial, por isso, a sua forma será esta: "def __init__()"]:
 #Se usa "self" como parâmetro do construtor quando se quer alterar as propriedades da própria classe daquele objeto.
-#O "self" é o "this" do Python.
+#O "self" é o "this" do Python, ou seja, uma referência à própria classe do objeto.
 
 class Carro:
     velocidade_máxima = 0
@@ -40,7 +40,7 @@ class Carro:
         else:
             print('\nO carro está desligado!')
 
-#A partir do momento em que se tem um Construtor definido, é preciso passar passar parâmetros para a chamada da classe.
+#A partir do momento em que se tem um Construtor definido, é preciso passar parâmetros para a chamada da classe.
 
 car_1 = Carro('200km/h', False, 'Vermelho')
 car_2 = Carro('300km/h', True, 'Azul')
