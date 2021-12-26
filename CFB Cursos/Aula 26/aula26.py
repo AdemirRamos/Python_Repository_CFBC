@@ -11,3 +11,6 @@ except (NameError):
 
 except:
     print('Erro desconhecido.')
+
+else: #Se cai aqui quando não houver um erro / exceção.
+    print('Nenhum erro / exceção foi encontrado (a).')
