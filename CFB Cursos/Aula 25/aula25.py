@@ -6,15 +6,15 @@ print()
 #O conceito de "Herança" involve "classes-filho" herdando "classes-pai".
 #Todas as características da "classe-pai" serão herdadas pela "classe-filho".
 
-class NPC: #Class base / pai / Super
+class NPC: #Class base / pai / super
 
     def __init__(self, nome, time, força, munição):
-        self.nome = nome
+        self.nome = nome #O primeiro "nome" é a variável do próprio elemento; o segundo "nome" é o nome do parâmetro do construtor.
         self.time = time
         self.força = força
         self.munição = munição
-        self.vivo = True
-        self.energia = 100
+        self.vivo = True #Elemento fixo.
+        self.energia = 100 #Elemento fixo.
 
     def info(self):
         print(f'Nome: {self.nome}; Time: {self.time}; Força: {self.força}; Munição: {self.munição};', end=' ')
@@ -34,7 +34,7 @@ class Guarda(NPC):
     def __init__(self, nome, time):
         self.força = 100
         self.munição = 20
-        super().__init__(nome, time, self.força, self.munição)    
+        super().__init__(nome, time, self.força, self.munição) #Os parâmetros sem "self." são herdados da "classe-pai".  
 
 class Elite(NPC):
     def __init__(self, nome, time):
