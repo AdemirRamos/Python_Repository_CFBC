@@ -8,3 +8,6 @@ try:
 
 except (NameError):
     print('Erro. Variável não definida.')
+
+except:
+    print('Erro desconhecido.')
