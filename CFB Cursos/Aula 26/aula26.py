@@ -23,18 +23,20 @@ finally: #Independente da ocorrência de erros ou não, esse bloco será executa
 num = -10
 
 if num < 0:
-    raise Exception ('Valor inválido! O valor não pode ser menor do que zero (0).')
+    raise Exception ('\nValor inválido! O valor não pode ser menor do que zero (0).')
     #Esse comando gera uma exceção / erro.
 
 if type(num) is int: #Se "num" for do tipo "int".
-    print('')
+    print('\nValor digitado válido.')
 
 else:
-    print('')
+    raise Exception ('\nErro. Digite somente números.')
 
-if not type(num) is int: #Se "num" não for do tipo "int".
-    print('')
+num_2 = 'Ademir'
+
+if not type(num_2) is int: #Se "num" não for do tipo "int".
+    print('\nErro. Digite somente números.')
 
 else:
-    print('')
+    print('\nValor digitado válido.')
 
