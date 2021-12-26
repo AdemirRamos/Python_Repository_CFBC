@@ -20,3 +20,8 @@ else: #Se cai aqui quando não houver um erro / exceção.
 finally: #Independente da ocorrência de erros ou não, esse bloco será executado.
     print('\nFim do tratamento de erros.')
 
+num = -10
+
+if num < 0:
+    raise Exception ('Valor inválido! O valor não pode ser menor do que zero (0).')
+    #Esse comando gera uma exceção / erro.
