@@ -5,6 +5,6 @@ print()
 
 try:
     print(x)
-    
-except:
+
+except (NameError):
     print('Erro. Variável não definida.')
