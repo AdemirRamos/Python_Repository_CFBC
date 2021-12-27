@@ -101,6 +101,6 @@ def listar():
 
     p = 0
     for c in carros:
-        print(f'{p}ª Carro: {c}\n')
+        print(f'{p}ª Carro: {c.nome}\n')
         p += 1
     os.system('pause')
