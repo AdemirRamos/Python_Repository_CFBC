@@ -25,7 +25,7 @@ class Carro:
     def instanciar(self):
         print(f'\nO nome do veículo é: {self.nome}; \n\nA potência do veículo é: {self.potência};')
         print(f'\nA velocidade máxima do veículo é: {self.velocidade_máxima};')
-        print(f'\nO carro está ligado/desligado: {"Sim" if self.ligado else "Não"}.')
+        print(f'\nO carro está ligado/desligado: {"ligado" if self.ligado else "desligado"}.\n')
 
 def menu():
     os.system('cls') or None #Checar "or None".
@@ -44,10 +44,10 @@ def menu():
 def novo_carro():
     os.system('cls') or None
     n = str(input('Nome do carro: '))
-    p = int(input('Potência do carro: '))
+    p = int(input('\nPotência do carro: '))
     car = Carro(n, p)
     carros.append(car)
-    print('\nCarro adicionado à lista com sucesso.')
+    print('\nCarro adicionado à lista com sucesso.\n')
     os.system('pause') #Checar.
 
 def informações():
@@ -58,7 +58,7 @@ def informações():
         carros[n].instanciar() #Outra maneira de se escrever essa mesma linha de código: "carros[int(n)].info()"
 
     except:
-        print('\nO número digitado não corresponde a nenhum carro da lista.')
+        print('\nO número digitado não corresponde a nenhum carro da lista.\n')
     os.system('pause')
 
 def excluir_carro():
@@ -67,10 +67,10 @@ def excluir_carro():
 
     try:    
         del carros[n]
-        print('\nCarro excluído da lista com sucesso.')
+        print('\nCarro excluído da lista com sucesso.\n')
 
     except:
-        print('\nO número digitado não corresponde a nenhum carro da lista.')
+        print('\nO número digitado não corresponde a nenhum carro da lista.\n')
     os.system('pause')
 
 def ligar():
@@ -79,10 +79,10 @@ def ligar():
 
     try:    
         carros[n].ligar()
-        print('\nCarro ligado.')
+        print('\nCarro ligado.\n')
 
     except:
-        print('\nO número digitado não corresponde a nenhum carro da lista.')
+        print('\nO número digitado não corresponde a nenhum carro da lista.\n')
     os.system('pause')
 
 def desligar():
@@ -91,10 +91,10 @@ def desligar():
 
     try:    
         carros[n].desligar()
-        print('\nCarro desligado.')
+        print('\nCarro desligado.\n')
 
     except:
-        print('\nO número digitado não corresponde a nenhum carro da lista.')
+        print('\nO número digitado não corresponde a nenhum carro da lista.\n')
     os.system('pause')
 
 def listar():
@@ -102,7 +102,7 @@ def listar():
 
     p = 0
     for c in carros:
-        print(f'{p}Carro: {c}\n')
+        print(f'{p}ª Carro: {c.nome}\n')
         p += 1
     os.system('pause')
 
