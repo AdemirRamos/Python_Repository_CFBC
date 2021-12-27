@@ -29,14 +29,14 @@ class Carro:
 
 def menu():
     os.system('cls') or None #Checar "or None".
-    print('1 - Novo carro')
+    print('\n1 - Novo carro')
     print('\n2 - Informações do carro')
     print('\n3 - Excluir carro')
     print('\n4 - Ligar o veículo')
     print('\n5 - Desligar o veículo')
     print('\n6 - Listar os carros')
     print('\n7 - Sair do programa')
-    print(f'Quantidade de carros: {len(carros)}.')
+    print(f'\nQuantidade de carros: {len(carros)}.')
 
     opção = int(input('Digite uma opção: '))
     return opção #Retorna para o menu a opção selecionada pelo usuário.
@@ -44,56 +44,56 @@ def menu():
 def novo_carro():
     os.system('cls') or None
     n = str(input('Nome do carro: '))
-    p = int(input('Potência do carro: '))
+    p = int(input('\nPotência do carro: '))
     car = Carro(n, p)
     carros.append(car)
-    print('Carro adicionado à lista com sucesso.')
+    print('\nCarro adicionado à lista com sucesso.\n')
     os.system('pause') #Checar.
 
 def informações():
     os.system('cls') or None
-    n = int(input('Informe o número do carro para mais informações: '))
+    n = int(input('\nInforme o número do carro para mais informações: '))
     
     try:
-        carros[n].info() #Outra maneira de se escrever essa mesma linha de código: "carros[int(n)].info()"
+        carros[n].instanciar() #Outra maneira de se escrever essa mesma linha de código: "carros[int(n)].instanciar()".
 
     except:
-        print('O número digitado não corresponde a nenhum carro da lista.')
+        print('\nO número digitado não corresponde a nenhum carro da lista.')
     os.system('pause')
 
 def excluir_carro():
     os.system('cls') or None
-    n = int(input('informe o número do carro que será excluído: '))
+    n = int(input('\ninforme o número do carro que será excluído: '))
 
     try:    
         del carros[n]
 
     except:
-        print('O número digitado não corresponde a nenhum carro da lista.')
+        print('\nO número digitado não corresponde a nenhum carro da lista.\n')
     os.system('pause')
 
 def ligar():
     os.system('cls') or None
-    n = int(input('informe o número do carro que será ligado: '))
+    n = int(input('\ninforme o número do carro que será ligado: '))
 
     try:    
         carros[n].ligar()
-        print('Carro ligado.')
+        print('\nCarro ligado.')
 
     except:
-        print('O número digitado não corresponde a nenhum carro da lista.')
+        print('\nO número digitado não corresponde a nenhum carro da lista.\n')
     os.system('pause')
 
 def desligar():
     os.system('cls') or None
-    n = int(input('informe o número do carro que será desligado: '))
+    n = int(input('\ninforme o número do carro que será desligado: '))
 
     try:    
         carros[n].desligar()
-        print('Carro desligado.')
+        print('\nCarro desligado.')
 
     except:
-        print('O número digitado não corresponde a nenhum carro da lista.')
+        print('\nO número digitado não corresponde a nenhum carro da lista.\n')
     os.system('pause')
 
 def listar():
