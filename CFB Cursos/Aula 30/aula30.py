@@ -20,7 +20,7 @@ def tela():
     print('    0   1   2\n')
     print(f'0:  {velha[0][0]} | {velha[1][0]} | {velha[2][0]}')
     print('   -----------')
-    print(f'1:  {velha[1][0]} | {velha[1][0]} | {velha[2][0]}')
+    print(f'1:  {velha[0][0]} | {velha[1][0]} | {velha[2][0]}')
     print('   -----------')
     print(f'2:  {velha[0][0]} | {velha[1][0]} | {velha[2][0]}')
     print(f'\nJogadas feitas: {Fore.GREEN} {jogadas} {Fore.RESET}.')
