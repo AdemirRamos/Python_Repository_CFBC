@@ -1,3 +1,4 @@
+from math import e
 import os; os.system('cls'); import random; from colorama import Fore, Back, Style
 
 print('Jogo da Velha Em Python')
@@ -62,7 +63,7 @@ def jogadas_programa():
         jogadas += 1
         turn = 2
 
-def vitória():
+def victory():
     global velha
     vitória = 'não'
     símbolos = ['X', 'O']
@@ -121,7 +122,7 @@ def vitória():
         soma = 0
         diagonal_line = 0
         diagonal_column = 2
-        while diagonal_column < 3:
+        while diagonal_column >= 0:
             if (velha[diagonal_line][diagonal_column] == s):
                     soma += 1
             diagonal_line += 1
@@ -130,9 +131,40 @@ def vitória():
             vitória = s
             break
 
-        return vitória
+        return victory
 
-while True:
-    tela()
-    jogadas_jogdador()
-    jogadas_programa()
+def redefinir():
+    global velha
+    global jogadas
+    global turn
+    global max_moves
+    global vitória
+
+    velha = [
+
+        [' '], [' '], [' '],
+        [' '], [' '], [' '],
+        [' '], [' '], [' ']
+
+        ]    
+while (play_again == 'sim'):
+    while True:
+        tela()
+        jogadas_jogdador()
+        jogadas_programa()
+        tela()
+        vitória = victory()
+
+        if (vitória != 'não') or (jogadas >= max_moves):
+            break
+
+    print(f'{Fore.RED}Fim de jogo.{Fore.YELLOW}')
+    
+    if vitória == 'X' or vitória == 'O':
+        print(f'Resultado: jogador {vitória} venceu.')
+
+    else:
+        print('Resultado: empate.')
+    
+    play_again = input(f'{Fore.BLUE}Jogar novamente? [s/n]: {Fore.RESET}')
+    redefinir()
