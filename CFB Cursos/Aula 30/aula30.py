@@ -3,7 +3,7 @@ import os; os.system('cls'); import random; from colorama import Fore, Back, Sty
 print('Jogo da Velha Em Python')
 print()
 
-play_again = 'Sim'; jogadas = 0; turn = 2; max_moves = 9; win = 'Não'
+play_again = 'Sim'; jogadas = 0; turn = 2; max_moves = 9; win = 'Não'; vitória = 'não'
 
 #2 == Jogador; 1 == Programa.
 
@@ -62,8 +62,77 @@ def jogadas_programa():
         jogadas += 1
         turn = 2
 
+def vitória():
+    global velha
+    vitória = 'não'
+    símbolos = ['X', 'O']
+    for s in símbolos:
+        vitória = 'não'
+        #Verificar vitória em linhas:
+
+        line_index = column_index = 0
+
+        while line_index < 3:
+            soma = 0
+            column_index = 0
+            while column_index < 3:
+                if (velha[line_index][column_index] == s):
+                    soma += 1
+                column_index += 1
+            if soma == 3:
+                vitória = s
+                break
+            line_index += 1
+        if (vitória != 'não'):
+            break
+
+        #Verificar vitória em colunas:
+
+        line_index = column_index = 0
+
+        while column_index < 3:
+            soma = 0
+            line_index = 0
+            while line_index < 3:
+                if (velha[line_index][column_index] == s):
+                    soma += 1
+                line_index += 1
+            if soma == 3:
+                vitória = s
+                break
+            column_index += 1
+        if (vitória != 'não'):
+            break
+
+        #Verificar vitória em diagonais (1ª diagonal):
+
+        soma = 0
+        diagonal_1 = 0
+        while diagonal_1 < 3:
+            if (velha[diagonal_1][diagonal_1] == s):
+                    soma += 1
+            diagonal_1 += 1
+        if soma == 3:
+            vitória = s
+            break
+
+        #Verificar vitória em diagonais (2ª diagonal):
+
+        soma = 0
+        diagonal_line = 0
+        diagonal_column = 2
+        while diagonal_column < 3:
+            if (velha[diagonal_line][diagonal_column] == s):
+                    soma += 1
+            diagonal_line += 1
+            diagonal_column -= 1
+        if soma == 3:
+            vitória = s
+            break
+
+        return vitória
+
 while True:
     tela()
     jogadas_jogdador()
     jogadas_programa()
-    break
