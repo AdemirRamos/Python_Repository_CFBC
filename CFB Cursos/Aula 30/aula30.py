@@ -1,6 +1,6 @@
 import os; os.system('cls'); import random; from colorama import Fore, Back, Style
 
-print('Jogo da Velha Em Python (Parte 1)')
+print('Jogo da Velha Em Python')
 print()
 
 play_again = 'Sim'; jogadas = 0; turn = 2; max_moves = 9; win = 'Não'
