@@ -9,7 +9,7 @@ def esporte_selecionado():
     var_esporte = combobox_esportes.get()
     print(f'Esporte selecionado: "{var_esporte}".')
 
-#"ComboBox" se encontra dentro da sub-biblioteca (do Tkinter) chamada "tkk".
+#"ComboBox" se encontra dentro da sub-biblioteca (do Tkinter) chamada "ttk".
 
 janela = Tk()
 
