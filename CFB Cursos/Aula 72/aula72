@@ -1,0 +1,29 @@
+import os; os.system('cls')
+
+print('Tkinter - Scale')
+print()
+
+from tkinter import *
+
+def valor_escala():
+    print(f'Valor da escala: {sc_escala.get()}.')
+
+janela = Tk()
+
+janela.title('CFB Cursos')
+janela.geometry('500x300')
+
+label_valor = Label(janela, text='Valor')
+label_valor.pack()
+
+sc_escala = Scale(janela, from_=0, to=100, orient=HORIZONTAL)
+
+#"from" determina onde começa a escala e "to" determina onde ela termina. "orient" determina o sentido da escala - vertical ou horizontal.
+
+sc_escala.set(50) #Nos permite definir o valor inicial da escala.
+sc_escala.pack()
+
+botão_valor = Button(janela, text='Valor da Escala', command=valor_escala)
+botão_valor.pack()
+
+janela.mainloop()
