@@ -7,7 +7,7 @@ from tkinter import *; from tkinter import ttk
 
 janela = Tk()
 
-janela.title=('CFB Cursos')
+janela.title('CFB Cursos')
 janela.geometry('500x300')
 
 #Por este se tratar do primeiro elemento, o seu pai será a "janela".
