@@ -9,7 +9,7 @@ def imprimir_esporte():
     print(f'Esporte selecionado: {list_box_esportes.get(ACTIVE)}.')
 
 def inserir_esporte():
-    print(f'Novo esporte inserido: {list_box_esportes.insert(END, novo_esporte.get())}.')
+    list_box_esportes.insert(END, novo_esporte.get())
 
 janela = Tk()
 
