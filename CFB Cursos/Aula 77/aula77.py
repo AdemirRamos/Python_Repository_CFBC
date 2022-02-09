@@ -15,7 +15,7 @@ def valor_barra_2(máximo):
     while cont < etapas:
         cont += 1
         i = 0
-        while i < 100000000:
+        while i < 1000000:
             i += 1
         variável_barra.set(cont)
         
