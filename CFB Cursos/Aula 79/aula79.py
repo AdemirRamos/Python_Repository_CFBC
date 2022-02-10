@@ -13,6 +13,8 @@ janela.geometry('600x300')
 
 lista_de_nomes = [['0', 'Brertilda', '98888-8888'], ['1', 'Crisloidy', '97777-7777'], ['2', 'Julsivan', '96666-6666']]
 
+#Definindo os nomes das colunas:
+
 tree_view = ttk.Treeview(janela, columns=('id', 'nome', 'telefone'), show='headings')
 
 #Aqui se define o nome da coluna e a largura mínima.
