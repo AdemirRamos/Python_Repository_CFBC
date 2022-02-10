@@ -15,7 +15,7 @@ lista_de_nomes = [['0', 'Brertilda', '98888-8888'], ['1', 'Crisloidy', '97777-77
 
 tree_view = ttk.Treeview(janela, columns=('id', 'nome', 'telefone'), show='headings')
 
-#Aqui se define o nome da coluna e a largura e largura mínima.
+#Aqui se define o nome da coluna e a largura mínima.
 
 tree_view.column('id', minwidth=0, width=50)
 tree_view.column('nome', minwidth=0, width=250)
