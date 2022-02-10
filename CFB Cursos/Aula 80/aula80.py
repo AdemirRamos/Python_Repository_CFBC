@@ -65,6 +65,4 @@ botão_inserir.grid(column=0, row=4)
 botão_deletar.grid(column=1, row=4)
 botão_obter.grid(column=2, row=4)
 
-#tree_view.insert('', 'end', values=(id, nome, telefone))
-
 janela.mainloop()
