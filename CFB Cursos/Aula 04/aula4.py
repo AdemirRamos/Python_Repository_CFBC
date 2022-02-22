@@ -50,7 +50,7 @@ x_6 = {'nome': 'Ademir', 'idade': 25, 'sexo': 'Feminino'}
 #Tipo "set":
 #"set" não repete valores.
 
-x_7 = {1, 2, 3, 4, 5, 1, 2 ,3}
+x_7 = set{1, 2, 3, 4, 5, 1, 2 ,3}
 
 #"Frozen Set":
 #É criada um "set" porém ele não pode ser modificado.
