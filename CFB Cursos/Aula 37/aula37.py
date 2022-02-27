@@ -33,5 +33,5 @@ print(f'{cars_json_4}.\n')
 cars_json_5 = json.dumps(carros_dictionary, indent = 4, separators = (':', '=')) #Similar ao método "replace" do Python.
 print(f'{cars_json_5}.\n')
 
-cars_json_6 = json.dumps(carros_dictionary, indent = 4, sort_keys= True) #Ordenando a ordem das chaves com "sort" (ordem alfabética).
+cars_json_6 = json.dumps(carros_dictionary, indent = 4, sort_keys = True) #Ordenando a ordem das chaves com "sort" (ordem alfabética).
 print(f'{cars_json_6}.\n')
