@@ -16,7 +16,7 @@ resultado = re.sub(',', '.', texto)
 
 resultado_2 = re.sub('\s', '-', texto) #Ao invés de "\s", também poderia ser escrito: "' '".
 
-#Somando um segunda substituição à primeira:
+#Somando uma segunda substituição à primeira:
 
 resultado_2 = re.sub(',', '.', resultado_2)
 #É importante, ao se escolher onde será feita a substituição, escolher a variável já formatada (nesse caso, "resultado_2").
