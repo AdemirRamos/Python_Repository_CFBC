@@ -15,9 +15,9 @@ file = open('C:/Users/Lucineide Ferreira/Desktop/Programming/Python/Python_Repos
 #t: "text" (texto) - o novo arquivo 
 #b: "binary" (binário) - o novo arquivo
 
-#Caso o arquivo não exista, so se usar "read" ou "write", um novo arquivo será criado.
+#Caso o arquivo não exista, ao se usar "read" ou "write", um novo arquivo será criado.
 #Caso o arquivo já exista, ele será aberto para leitura.
-#também se pode combinar as letras acima para gerar um novo arquivo. Exemplo "nome_do_arquivo, 'wt'".
+#Também se pode combinar as letras acima para gerar um novo arquivo. Exemplo "nome_do_arquivo, 'wt'".
 
 #Escrevendo dentro do arquivo:
 
