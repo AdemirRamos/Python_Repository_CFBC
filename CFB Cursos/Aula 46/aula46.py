@@ -3,7 +3,7 @@ import os; os.system('cls'); import re; import time
 print('Deletando Arquivos - Parte 3')
 print()
 
-#UM AVISO IMPORTANTE: é preciso fazer tomar certos cuidados para que a criação de arquivos ocorra sem nenhum erro.
+#UM AVISO IMPORTANTE: é preciso tomar certos cuidados para que a criação de arquivos ocorra sem nenhum erro.
 #Por exemplo: após o nome final do endereço, é preciso barra invertida; é preciso usar "open()" para se adicionar o endereço do arquivo.
 #E, ao concatenar os diferentes endereços que forma o endereço do arquivo, é preciso fazer exatamente como abaixo. 
 
