@@ -1,15 +1,15 @@
 Nome.....: Ademir Ramos
-Telefone.: +55 (11) 98155-7315
-E-mail...: ademirramos634@gmail.com
+Telefone.: +55 (11) 98155-****
+E-mail...: ademir******634@gmail.com
 Texto....: Arquivo de teste.
 
 Nome.....: Ademir Ramos
-Telefone.: +55 (11) 98155-7315
-E-mail...: ademirramos634@gmail.com
+Telefone.: +55 (11) 98155-****
+E-mail...: ademir******634@gmail.com
 Texto....: Texto de teste.
 
 Nome.....: Demi Smith
-Telefone.: +55 (11) 98155-7315
-E-mail...: ademirramos634@yahoo.com
+Telefone.: +55 (11) 98155-****
+E-mail...: ademir****634@yahoo.com
 Texto....: Texto de teste.
 
