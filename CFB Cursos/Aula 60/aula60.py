@@ -10,7 +10,7 @@ nome_arquivo = c + '\\dados.txt'
 
 def gravar_dados():
     arquivo = open(nome_arquivo, 'a')
-    arquivo.write('Nome.....: %s' % variável_nome.get())
+    arquivo.write('Nome.......: %s' % variável_nome.get())
     arquivo.write('\nTelefone.: %s' % variável_phone.get())
     arquivo.write('\nE-mail...: %s' % variável_mail.get())
     arquivo.write('\nTexto....: %s' % variável_texto.get('1.0', END))
